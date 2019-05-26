@@ -1,0 +1,21 @@
+{
+  "name": "fake-webpack",
+  "version": "1.0.0",
+  "description": "Webpack 打包原理",
+  "main": "index.js",
+  "scripts": {
+    "build": "node build/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "WANG",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "@babel/parser": "^7.20.13",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/traverse": "^7.20.13"
+  }
+}
